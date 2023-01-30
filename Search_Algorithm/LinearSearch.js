@@ -5,7 +5,7 @@
  if x Found in the Array return the index of x
  */
 
-const recursiveLinearSearch = (arr, x) => {
+const linearSearch = (arr, x) => {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === x) {
             return i;
@@ -15,8 +15,8 @@ const recursiveLinearSearch = (arr, x) => {
 };
 
 const givenArray = [10, 20, 80, 30, 60, 50, 110, 100, 130, 170];
-console.log(recursiveLinearSearch(givenArray, 110)) //expected output: 6
-console.log(recursiveLinearSearch(givenArray, 30)) //expected output: 3
-console.log(recursiveLinearSearch(givenArray, 220)) //expected output: -1
+console.log(linearSearch(givenArray, 110)) //expected output: 6
+console.log(linearSearch(givenArray, 30)) //expected output: 3
+console.log(linearSearch(givenArray, 220)) //expected output: -1
 
 //complexity: O(n).

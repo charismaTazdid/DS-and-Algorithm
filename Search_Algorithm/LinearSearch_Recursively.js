@@ -19,3 +19,5 @@ const givenArray = [10, 20, 80, 30, 60, 50, 110, 100, 130, 170];
 console.log(recursiveLinearSearch(givenArray, 110)) //expected output: 6
 console.log(recursiveLinearSearch(givenArray, 30)) //expected output: 3
 console.log(recursiveLinearSearch(givenArray, 220)) //expected output: -1
+
+//complexity: O(n).
