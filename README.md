@@ -15,6 +15,9 @@
  <div style="color: #346beb; font-weight: bold; margin-left: 60px; padding-bottom: 20px">
     <ul style="padding: 10px"> 
         <li> LRU Cache </li>
+        <li>Linear Search </li>
+        <li>Linear Search Recursively </li>
+        <li>Linear Search Recursively </li>
     </ul>
     <!-- UPDATE HERE -->
   </div>
