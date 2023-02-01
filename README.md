@@ -17,7 +17,8 @@
         <li> LRU Cache </li>
         <li>Linear Search </li>
         <li>Linear Search Recursively </li>
-        <li>Linear Search Recursively </li>
+        <li>Binary Search</li>
+        <li>Binary Search Recursively </li>
     </ul>
     <!-- UPDATE HERE -->
   </div>

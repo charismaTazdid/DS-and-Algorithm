@@ -25,5 +25,7 @@ console.log(binarySearch(arr, 998)); //Expected Output: 9
 console.log(binarySearch(arr, 34));  //Expected Output: 3
 console.log(binarySearch(arr, 37));  //Expected Output: -1
 
+// Complexity : O(log n)
+
 const target = 345;
 console.log(`The Target at Position ${binarySearch(arr, target)}`)
