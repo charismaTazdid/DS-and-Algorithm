@@ -19,6 +19,7 @@
         <li>Linear Search Recursively </li>
         <li>Binary Search</li>
         <li>Binary Search Recursively </li>
+        <li>Breadth-First Search (BFS) </li>
     </ul>
     <!-- UPDATE HERE -->
   </div>
