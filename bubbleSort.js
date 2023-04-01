@@ -17,3 +17,5 @@ const bubbleSort = (arr) => {
 };
 
 console.log(bubbleSort(arr));
+
+// Complexity: O(n^2)
