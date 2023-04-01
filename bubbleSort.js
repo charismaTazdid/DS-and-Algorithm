@@ -19,3 +19,4 @@ const bubbleSort = (arr) => {
 console.log(bubbleSort(arr));
 
 // Complexity: O(n^2)
+// Space Complexity: O(1)
