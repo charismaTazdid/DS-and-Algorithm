@@ -1,5 +1,5 @@
 
-const arr = [2, 8, 5, 3, 9, 4, 1];
+const arr = [2, 8, 5, 3, 9, 4, 1];  // Expected Output: [1, 2, 3, 4, 5, 8, 9]
 
 const selectionSortRecursive = (arr, n = arr.length) => {
 
@@ -12,9 +12,8 @@ const selectionSortRecursive = (arr, n = arr.length) => {
             arr[n - 1] = temp;
         }
     }
-    selectionSortRecursive(arr, n - 1);
+    return selectionSortRecursive(arr, n - 1);
 
-    return arr;
 };
 
 console.log(selectionSortRecursive(arr))  // Output: [1, 2, 3, 4, 5, 8, 9]
