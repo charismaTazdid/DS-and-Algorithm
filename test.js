@@ -1,20 +1,45 @@
 const arr = [2, 8, 5, 3, 9, 4, 1];
 
-const selectionSort = (arr) => {
-
-    for (let i = 0; i < arr.length; i++) {
-        let minIndex = i;
-        for (let j = i + 1; j < arr.length; j++) {
-            if (arr[j] < arr[minIndex]) {
-                minIndex = j;
-            }
-        }
-        if (minIndex !== i) {
-            [arr[minIndex], arr[i]] = [arr[i], arr[minIndex]]
-        }
+const quickSort = (arr) => {
+    if (arr.length <= 1) {
+        return arr
     }
-    return arr;
+    let pivot = arr[arr.length - 1];
+    let leftArr = [];
+    let rightArr = [];
+    for (let i = 0; i < arr.length - 1; i++) {
+        if (arr[i] > pivot) {
+            rightArr.push(arr[i])
+        } else {
+            leftArr.push(arr[i])
+        }
 
+    }
+    return [...quickSort(leftArr), pivot, ...quickSort(rightArr)]
 }
 
-console.log(selectionSort(arr))
+
+console.log(quickSort(arr))
+
+
+function quickSort2(arr) {
+    if (arr.length <= 1) {
+        return arr;
+    } else {
+        const pivot = arr[0];
+        const left = [];
+        const right = [];
+
+        for (let i = 1; i < arr.length; i++) {
+            if (arr[i] < pivot) {
+                left.push(arr[i]);
+            } else {
+                right.push(arr[i]);
+            }
+        }
+
+        return [...quickSort(left), pivot, ...quickSort(right)];
+    }
+}
+
+console.log(quickSort2(arr))
