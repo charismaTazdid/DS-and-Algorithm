@@ -1,4 +1,5 @@
-//Binary Search Algorithm
+// Find and the "index" number of "target"
+// Binary Search Algorithm
 
 const binarySearch = (arr, target) => {
     let first = 0;

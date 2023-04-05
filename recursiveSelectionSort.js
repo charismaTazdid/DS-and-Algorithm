@@ -9,7 +9,7 @@ const selectionSortRecursive = (arr, n = arr.length) => {
         if (arr[i] > arr[n - 1]) {
             let temp = arr[i];
             arr[i] = arr[n - 1];
-            arr[n - 1] = temp;
+            arr[n - 1] = temp;   
         }
     }
     return selectionSortRecursive(arr, n - 1);

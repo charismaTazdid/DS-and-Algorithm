@@ -1,4 +1,6 @@
 
+const myArray = [3, 6, 1, 9, 4, 2, 8, 7, 5];
+
 const quickSort = (arr) => {
     if (arr.length <= 1) {
         return arr;
@@ -18,7 +20,5 @@ const quickSort = (arr) => {
 
     return [...quickSort(leftArray), pivot, ...quickSort(rightArray)];
 }
-
-const myArray = [3, 6, 1, 9, 4, 2, 8, 7, 5];
 
 console.log(quickSort(myArray))
