@@ -1,6 +1,6 @@
 <h1 style="color: darkorange; font-weight: bold; text-align: center">Data Structure and Algorithms </h1>
 
-## Welcome to my repository!
+## Welcome to my repository!❤️
 
 ## Here, you will find solutions to various problems related to data structures and algorithms.
 
@@ -13,13 +13,26 @@
 <h2 style="font-weight: bold; text-align: center; color: #eb8634">List Of Problem :</h2>
 
  <div style="color: #346beb; font-weight: bold; margin-left: 60px; padding-bottom: 20px">
-    <ul style="padding: 10px"> 
+    <!-- <ul style="padding: 10px"> 
         <li> LRU Cache </li>
-        <li>Linear Search </li>
-        <li>Linear Search Recursively </li>
-        <li>Binary Search</li>
-        <li>Binary Search Recursively </li>
-        <li>Breadth-First Search (BFS) </li>
+    </ul> -->
+    <ul> 📁 Search_Algorithm 
+        <li> Linear Search </li>
+        <li> Linear Search Recursively </li>
+        <li> Binary Search</li>
+        <li> Binary Search Recursively </li>
+        <li> Breadth-First Search (BFS) </li>
+    </ul>
+    <ul> 📁 Sorting_Algorithm 
+        <li> Bubble sort </li>
+        <li> Selection Sort </li>
+        <li> Selection Sort Recursively </li>
+        <li> Quick Sort (Recursive) </li>
+        <li> Marge Sort </li>
+        <li> Binary Array Sort </li>
+    </ul>
+    <ul> 
+        <li> LRU Cache </li>
     </ul>
     <!-- UPDATE HERE -->
   </div>
@@ -38,4 +51,4 @@
 ## Author:
 
 - **Raihan Tazdid** -
-  [Raihan Tazdid](https://github.com/raihan-tajdid007)
+  [Raihan Tazdid](https://www.linkedin.com/in/raihan-tazdid/)
