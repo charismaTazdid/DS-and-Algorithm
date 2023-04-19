@@ -30,6 +30,7 @@
         <li> Quick Sort (Recursive) </li>
         <li> Marge Sort </li>
         <li> Binary Array Sort </li>
+        <li> Counting Sort </li>
     </ul>
     <ul> 
         <li> LRU Cache </li>
