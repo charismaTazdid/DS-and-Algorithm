@@ -31,6 +31,7 @@
         <li> Marge Sort </li>
         <li> Binary Array Sort </li>
         <li> Counting Sort </li>
+        <li> Heap Sort </li>
     </ul>
     <ul> 
         <li> LRU Cache </li>
