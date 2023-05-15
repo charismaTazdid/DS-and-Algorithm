@@ -36,6 +36,7 @@
     </ul>
     <ul> 
         <li> LRU Cache </li>
+        <li> Hash Table </li>
     </ul>
     <!-- UPDATE HERE -->
   </div>
