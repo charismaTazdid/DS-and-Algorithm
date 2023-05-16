@@ -23,6 +23,7 @@
         <li> Binary Search Recursively </li>
         <li> Breadth-First Search (BFS) </li>
         <li> Jump Search </li>
+        <li> String Search </li>
     </ul>
     <ul> 📁 Sorting_Algorithm 
         <li> Bubble sort </li>
