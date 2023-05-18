@@ -34,6 +34,7 @@
         <li> Binary Array Sort </li>
         <li> Counting Sort </li>
         <li> Heap Sort </li>
+        <li> Shell Sort</li>
     </ul>
     <ul> 
         <li> LRU Cache </li>
