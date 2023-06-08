@@ -38,6 +38,7 @@
     </ul>
     <ul> 
         <li> LRU Cache </li>
+        <li> Binary Search with Unsorted Array</li>
         <li> Hash Table </li>
     </ul>
     <!-- UPDATE HERE -->
