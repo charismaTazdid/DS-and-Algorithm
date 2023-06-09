@@ -35,6 +35,7 @@
         <li> Counting Sort </li>
         <li> Heap Sort </li>
         <li> Shell Sort</li>
+        <li> Big Sorting </li>
     </ul>
     <ul> 
         <li> LRU Cache </li>
