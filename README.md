@@ -41,6 +41,7 @@
         <li> LRU Cache </li>
         <li> Binary Search with Unsorted Array</li>
         <li> Hash Table </li>
+        <li> Encoding </li>
     </ul>
     <!-- UPDATE HERE -->
   </div>
