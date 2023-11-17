@@ -42,6 +42,7 @@
         <li> Binary Search with Unsorted Array</li>
         <li> Hash Table </li>
         <li> Encoding </li>
+        <li> Big Sorting</li>
     </ul>
     <!-- UPDATE HERE -->
   </div>
