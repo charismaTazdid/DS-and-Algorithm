@@ -1,4 +1,4 @@
-function dfs(node) {
+const dfs = (node) => {
     if (!node) {
         return [];
     }
