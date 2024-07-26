@@ -68,3 +68,4 @@ function calculateTimeDifference(inputDate) {
 }
 
 console.log(calculateTimeDifference1("13 aug 1998"))
+console.log(calculateTimeDifference1("2 aug 1997"))
