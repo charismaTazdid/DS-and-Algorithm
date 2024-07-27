@@ -23,9 +23,28 @@ class LinkedList {
         }
     };
 
-    delete() {
-        // Implemented later
-    }
+    delete(value) {
+        if (!this.head) {
+            return;
+        }
+        // is the value === first element of the list value we want to delete
+        while (this.head && this.head.value === value) {
+            this.head = this.head.next;
+        }
+
+        let currentNode = this.head;
+        while (currentNode.next) {
+            if (currentNode.next.value === value) {
+                currentNode.next = currentNode.next.next;
+            } else {
+                currentNode = currentNode.next;
+            }
+        }
+        if(this.tail.value === value){
+            this.tail = currentNode;
+        }
+    };
+
 
     toArray() {
         const elements = [];
@@ -39,10 +58,13 @@ class LinkedList {
 };
 
 const list1 = new LinkedList()
-list1.append("30 years old, I am a billionear")
+list1.append("You Only get 1 Life")
 list1.append(true)
 list1.append("Okey, It works")
 list1.append(55.45)
+list1.append(55.45)
 list1.prepend('Okay, Now prepend works.')
+list1.delete(55.45);
+
 
 console.log(list1.toArray())
